@@ -12,8 +12,9 @@ function App() {
   const [weatherForecastData, setWeatherForecastData] = useState(null);
   const [city, setCity] = useState("delhi");
   const [searchCity, setSearchCity] = useState("delhi");
+  // const apiKey = import.meta.env.KEY;
   const apiKey = "6a11f36ebadae1361af755eb4217b90f";
-
+  // console.log(import.meta.env.KEY);
   useEffect(() => {
     const fetchWeatherData2 = async () => {
       try {
